@@ -1,0 +1,362 @@
+[
+    {
+        "createdDateTime": "2019-07-26T11:48:18Z",
+        "description": "An optional description of the transcription.",
+        "id": "e78040e0-6ea8-43c3-9ca2-22b389d90f76",
+        "lastActionDateTime": "2019-07-26T11:48:18Z",
+        "locale": "fr-FR",
+        "models": [
+            {
+                "createdDateTime": "2019-03-04T20:32:51Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "2b88890b-e7f2-4b27-95a0-9ebbd1f9c6ca",
+                "lastActionDateTime": "2019-06-06T14:14:21Z",
+                "locale": "fr-FR",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.0 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription",
+                    "VadKind": "Tuned"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale fr",
+        "properties": {
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://transcriptionblob.blob.core.windows.net/input/test_voix.wav",
+        "resultsUrls": {},
+        "status": "NotStarted",
+        "statusMessage": "None."
+    },
+    {
+        "createdDateTime": "2019-07-26T11:46:58Z",
+        "description": "An optional description of the transcription.",
+        "id": "dbe2d726-2399-4a6b-9073-4299dd8c3b43",
+        "lastActionDateTime": "2019-07-26T11:47:16Z",
+        "locale": "fr-FR",
+        "models": [
+            {
+                "createdDateTime": "2019-03-04T20:32:51Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "2b88890b-e7f2-4b27-95a0-9ebbd1f9c6ca",
+                "lastActionDateTime": "2019-06-06T14:14:21Z",
+                "locale": "fr-FR",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.0 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription",
+                    "VadKind": "Tuned"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale fr",
+        "properties": {
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://transcriptionblob.blob.core.windows.net/input/test_voix.wav",
+        "resultsUrls": {},
+        "status": "Failed",
+        "statusMessage": "The recordings URI is invalid."
+    },
+    {
+        "createdDateTime": "2019-07-26T11:39:33Z",
+        "description": "An optional description of the transcription.",
+        "id": "b10e7f6a-f3f1-41ae-ab90-b92cf03f8f1c",
+        "lastActionDateTime": "2019-07-26T11:40:16Z",
+        "locale": "fr-FR",
+        "models": [
+            {
+                "createdDateTime": "2019-03-04T20:32:51Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "2b88890b-e7f2-4b27-95a0-9ebbd1f9c6ca",
+                "lastActionDateTime": "2019-06-06T14:14:21Z",
+                "locale": "fr-FR",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.0 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription",
+                    "VadKind": "Tuned"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale fr",
+        "properties": {
+            "CustomPronunciation": "False",
+            "Duration": "00:00:11",
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://transcriptionblob.blob.core.windows.net/input/test_voix.wav",
+        "resultsUrls": {
+            "channel_0": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/58d53e8b-4a22-483d-8176-c01136e597b0.json?sv=2017-04-17&sr=b&sig=OB1xGBjoDsG43mXKeb2wZZigTRff3GPW5mcEH2OHHc8%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl",
+            "channel_1": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/2aa5c472-725a-42b3-859f-c4ac8ea6e61b.json?sv=2017-04-17&sr=b&sig=G84mgjJQwKxWIZbqVLX26Z%2BLoyudXcUC%2B2zwrE5%2BsYk%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl"
+        },
+        "status": "Succeeded",
+        "statusMessage": "None."
+    },
+    {
+        "createdDateTime": "2019-07-26T11:38:44Z",
+        "description": "An optional description of the transcription.",
+        "id": "b5d55482-8fac-4207-af44-87f3e0e41bce",
+        "lastActionDateTime": "2019-07-26T11:39:27Z",
+        "locale": "fr-FR",
+        "models": [
+            {
+                "createdDateTime": "2019-03-04T20:32:51Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "2b88890b-e7f2-4b27-95a0-9ebbd1f9c6ca",
+                "lastActionDateTime": "2019-06-06T14:14:21Z",
+                "locale": "fr-FR",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.0 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription",
+                    "VadKind": "Tuned"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale fr",
+        "properties": {
+            "CustomPronunciation": "False",
+            "Duration": "00:00:11",
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://transcriptionblob.blob.core.windows.net/input/test_voix.wav",
+        "resultsUrls": {
+            "channel_0": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/e8d1d8aa-bb03-4893-b54a-d95fbc56800a.json?sv=2017-04-17&sr=b&sig=Ky6%2BGDECUxG6fJnS9Tg%2BztdZegsvKARuQbgptxThAzs%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl",
+            "channel_1": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/5d76d5fd-9073-4a18-82d5-4dce6108aac1.json?sv=2017-04-17&sr=b&sig=X6mO4Jtz3zskKmhv7vQsIrKRcJ4Os3%2Bo5RczC73wyEw%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl"
+        },
+        "status": "Succeeded",
+        "statusMessage": "None."
+    },
+    {
+        "createdDateTime": "2019-07-26T11:24:25Z",
+        "description": "Azure Blob TEST.",
+        "id": "d6068bcf-d8d8-4aac-ad38-798e8d91b956",
+        "lastActionDateTime": "2019-07-26T11:24:43Z",
+        "locale": "en-US",
+        "models": [
+            {
+                "createdDateTime": "2019-03-26T16:37:49Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "a74122be-f47f-4994-bd93-f686379c15d3",
+                "lastActionDateTime": "2019-03-26T16:46:01Z",
+                "locale": "en-US",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.13 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription,LanguageAdaptation"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale en-US",
+        "properties": {
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://csbf476de7202cex40fdxaf0.blob.core.windows.net/first-blob-test/first-blob-test/Azure_paris_chaud.mp3",
+        "resultsUrls": {},
+        "status": "Failed",
+        "statusMessage": "The recordings URI is invalid."
+    },
+    {
+        "createdDateTime": "2019-07-26T11:23:21Z",
+        "description": "Azure Blob TEST.",
+        "id": "018945d9-9e8e-461f-b322-b71067e77bc1",
+        "lastActionDateTime": "2019-07-26T11:23:41Z",
+        "locale": "en-US",
+        "models": [
+            {
+                "createdDateTime": "2019-03-26T16:37:49Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "a74122be-f47f-4994-bd93-f686379c15d3",
+                "lastActionDateTime": "2019-03-26T16:46:01Z",
+                "locale": "en-US",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.13 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription,LanguageAdaptation"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale en-US",
+        "properties": {
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://csbf476de7202cex40fdxaf0.blob.core.windows.net/first-blob-test/first-blob-test/Azure_paris_chaud.mp3",
+        "resultsUrls": {},
+        "status": "Failed",
+        "statusMessage": "The recordings URI is invalid."
+    },
+    {
+        "createdDateTime": "2019-07-26T11:22:52Z",
+        "description": "Azure Blob TEST.",
+        "id": "2eec18cb-30a4-40e2-b033-268f221b08e9",
+        "lastActionDateTime": "2019-07-26T11:23:12Z",
+        "locale": "en-US",
+        "models": [
+            {
+                "createdDateTime": "2019-03-26T16:37:49Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "a74122be-f47f-4994-bd93-f686379c15d3",
+                "lastActionDateTime": "2019-03-26T16:46:01Z",
+                "locale": "en-US",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.13 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription,LanguageAdaptation"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale en-US",
+        "properties": {
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://csbf476de7202cex40fdxaf0.blob.core.windows.net/first-blob-test/first-blob-test/Azure_paris_chaud.mp3",
+        "resultsUrls": {},
+        "status": "Failed",
+        "statusMessage": "The recordings URI is invalid."
+    },
+    {
+        "createdDateTime": "2019-07-26T09:50:24Z",
+        "description": "Azure Blob TEST.",
+        "id": "42c3e5a7-61de-46a2-96c9-f2327be434f5",
+        "lastActionDateTime": "2019-07-26T09:50:52Z",
+        "locale": "fr-FR",
+        "models": [
+            {
+                "createdDateTime": "2019-03-04T20:32:51Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "2b88890b-e7f2-4b27-95a0-9ebbd1f9c6ca",
+                "lastActionDateTime": "2019-06-06T14:14:21Z",
+                "locale": "fr-FR",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.0 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription",
+                    "VadKind": "Tuned"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale en-US",
+        "properties": {
+            "CustomPronunciation": "False",
+            "Duration": "00:00:11",
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://transcriptionblob.blob.core.windows.net/input/test_voix.wav",
+        "resultsUrls": {
+            "channel_0": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/4eab9c2c-e295-4559-841a-889446f8f1ef.json?sv=2017-04-17&sr=b&sig=Lqcn5ErZIUSVtAit489vwKdfCns3H%2FvtqKxCahptt7Q%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl",
+            "channel_1": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/9f62e5a4-165b-4915-bc36-95bda39dc2f2.json?sv=2017-04-17&sr=b&sig=7tUTdcPPIQw3qOtCO%2FhokD2Fgj3pZf3lWe6av9gxK0Y%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl"
+        },
+        "status": "Succeeded",
+        "statusMessage": "None."
+    },
+    {
+        "createdDateTime": "2019-07-26T09:45:04Z",
+        "description": "Azure Blob TEST.",
+        "id": "bccf5ffd-af8e-433d-9b61-69903b9e37d8",
+        "lastActionDateTime": "2019-07-26T09:45:38Z",
+        "locale": "en-US",
+        "models": [
+            {
+                "createdDateTime": "2019-03-26T16:37:49Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "a74122be-f47f-4994-bd93-f686379c15d3",
+                "lastActionDateTime": "2019-03-26T16:46:01Z",
+                "locale": "en-US",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.13 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription,LanguageAdaptation"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale en-US",
+        "properties": {
+            "CustomPronunciation": "False",
+            "Duration": "00:00:11",
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://transcriptionblob.blob.core.windows.net/input/test_voix.wav",
+        "resultsUrls": {
+            "channel_0": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/987cc410-45ac-4f7b-8c53-67d4edd1f235.json?sv=2017-04-17&sr=b&sig=7BlhsyS5ubhLyNHUn0pPwqep%2BhtHoxqH5rLLQfdngiM%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl",
+            "channel_1": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/2735bf4d-8530-4275-9180-87ea5b0034dd.json?sv=2017-04-17&sr=b&sig=CIytyHlEsR0rl01E3p0mTW1TNStM2zncYtGGeRG9fz8%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl"
+        },
+        "status": "Succeeded",
+        "statusMessage": "None."
+    },
+    {
+        "createdDateTime": "2019-07-26T09:22:48Z",
+        "description": "Azure Blob TEST.",
+        "id": "49539323-817e-4257-8fe0-f4e13039ff9a",
+        "lastActionDateTime": "2019-07-26T09:23:25Z",
+        "locale": "en-US",
+        "models": [
+            {
+                "createdDateTime": "2019-03-26T16:37:49Z",
+                "datasets": [],
+                "description": "Unified",
+                "id": "a74122be-f47f-4994-bd93-f686379c15d3",
+                "lastActionDateTime": "2019-03-26T16:46:01Z",
+                "locale": "en-US",
+                "modelKind": "AcousticAndLanguage",
+                "name": "v4.13 Unified",
+                "properties": {
+                    "ModelClass": "unified-v4",
+                    "Purpose": "OnlineTranscription,BatchTranscription,LanguageAdaptation"
+                },
+                "status": "Succeeded"
+            }
+        ],
+        "name": "Transcription using locale en-US",
+        "properties": {
+            "CustomPronunciation": "False",
+            "Duration": "00:00:11",
+            "ProfanityFilterMode": "Masked",
+            "PunctuationMode": "DictatedAndAutomatic"
+        },
+        "recordingsUrl": "https://transcriptionblob.blob.core.windows.net/input/test_voix.wav",
+        "resultsUrls": {
+            "channel_0": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/b71dc0cd-61ad-432d-80b8-693b76ef4b0a.json?sv=2017-04-17&sr=b&sig=Z7d098qgtODuvCbWBJLcI1%2FRlSDSyOawSCBCQTjuCT0%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl",
+            "channel_1": "https://spsvcprodcus.blob.core.windows.net/bestor-338cca94-e7c5-4fc1-8a7b-7b8c19fd291a/TranscriptionData/0dd56578-e593-4ca2-8d1e-dd0e3c147a92.json?sv=2017-04-17&sr=b&sig=7GzY2Pz%2BBL%2F3dGNFsrW0Cp0p%2FxNKCN8zi89d37yCtb8%3D&st=2019-07-26T11:43:23Z&se=2019-07-29T11:48:23Z&sp=rl"
+        },
+        "status": "Succeeded",
+        "statusMessage": "None."
+    }
+]
