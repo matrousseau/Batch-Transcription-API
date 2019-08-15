@@ -13,7 +13,7 @@ This repo contains a handful of simple functions to interact with the Batch Tran
 
 There are four functions in this repo:
 
-* `transcribe.py` - Transcribe a single file from Azure Blob Storage.
+* `upload_blob` - Transcribe a single file from Azure Blob Storage.
 * `get_transcription.py` - Get a full list of transcription requests associated with your subscription and the status for each.
 * `delete_transcriptions.py` - Delete a single transcription.
 * `delete_all.py` - Delete all transcriptions associated with your subscription.
