@@ -43,22 +43,16 @@ from azure.storage.blob import BlockBlobService, PublicAccess
 def run_sample():
     try:
         # Create the BlockBlockService that is used to call the Blob service for the storage account
-        block_blob_service = BlockBlobService(account_name='cs2blob0storage1account9', account_key='***********************')
+        block_blob_service = BlockBlobService(account_name='cs2blob0storage1account9', account_key='**********************')
 
-        container_name ='cs-blob-input'
-
+        container_name ='cs-blob-output'
+        json_to_download = '20190420_090357-54727-33355016280-IN.json'
 
         # Create a file in Documents to upload.
         local_path=os.path.abspath(os.path.curdir)
-        local_file_name =input("Enter file name to upload : ")
-        full_path_to_file =os.path.join(local_path, local_file_name)
 
-
-        print("Temp file = " + full_path_to_file)
-        print("\nUploading to Blob storage as blob" + local_file_name)
 
         # Upload the created file, use local_file_name for the blob name
-        block_blob_service.create_blob_from_path(container_name, local_file_name, full_path_to_file)
 
         # List the blobs in the container
         print("\nList blobs in the container")
@@ -68,9 +62,9 @@ def run_sample():
 
         # Download the blob(s).
         # Add '_DOWNLOADED' as prefix to '.txt' so you can see both files in Documents.
-        # full_path_to_file2 = os.path.join(local_path, str.replace(local_file_name ,'.txt', '_DOWNLOADED.txt'))
-        # print("\nDownloading blob to " + full_path_to_file2)
-        # block_blob_service.get_blob_to_path(container_name, local_file_name, full_path_to_file2)
+        full_path_to_file = os.path.join(local_path, json_to_download)
+        print("\nDownloading blob to " + full_path_to_file)
+        block_blob_service.get_blob_to_path(container_name, json_to_download, full_path_to_file)
 
         sys.stdout.write("Sample finished running. When you hit <any key>, the sample will be deleted and the sample "
                          "application will exit.")
